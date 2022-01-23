@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        >   <!--gravity를 이용하여 이미지 정렬!-->
+
+        <ImageView
+            android:id="@+id/test"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            />  <!-- drawable, mipmap은 폴더는 안드로이드의 기본 이미지를 모아놓는 폴덜로 mipmap의 경우 아이콘을 보아놓습니다.-->
+                <!--ic_launcher : 기본 이미지-->
+
+    </LinearLayout>
+</LinearLayout>
